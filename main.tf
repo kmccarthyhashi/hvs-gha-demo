@@ -23,8 +23,6 @@ provider "aws" {
   region  = var.region
 }
 
-# comment
-
 provider "hcp" {
   # Configuration options
    client_id = var.HCP_CLIENT_ID
