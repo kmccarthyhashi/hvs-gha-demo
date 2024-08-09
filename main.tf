@@ -30,6 +30,8 @@ provider "hcp" {
    project_id = "d99db594-a7a8-4624-9c81-399630d8e127"
 }
 
+# comment
+
 data "hcp_vault_secrets_secret" "web_application" {
    app_name = "python-server"
    secret_name = "test"
