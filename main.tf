@@ -11,7 +11,7 @@ terraform {
   }
 
     cloud {
-    organization = "KELLY-training"
+    organization = "NivethaNarayanan-training"
 
     workspaces {
       name = "hvs-gha-demo"
@@ -27,12 +27,12 @@ provider "hcp" {
   # Configuration options
    client_id = var.HCP_CLIENT_ID
    client_secret = var.HCP_CLIENT_SECRET
-   project_id = "d99db594-a7a8-4624-9c81-399630d8e127"
+   project_id = "9e078459-920d-42d8-8f42-ecaf7c33439f"
 }
 
 data "hcp_vault_secrets_secret" "web_application" {
-   app_name = "python-server"
-   secret_name = "test"
+   app_name = "hvs-team-demo"
+   secret_name = "app-secret"
 }
 
 resource "aws_vpc" "hashicat" {
