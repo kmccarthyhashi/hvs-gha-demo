@@ -10,6 +10,8 @@ terraform {
     }
   }
 
+# test 
+
     cloud {
     organization = "KELLY-training"
 
