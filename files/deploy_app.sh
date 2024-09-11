@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Hello Team!</h2></center>
-  Welcome to Kelly's app. The name of my secret is: ${APP_SECRET} .
+  Welcome to Kelly's second app. The name of my secret is: ${APP_SECRET} .
   <!-- END -->
 
   </div>
